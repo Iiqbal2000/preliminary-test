@@ -18,7 +18,7 @@ func main() {
 	fmt.Fprintf(os.Stdout, "Output: %d\n", result)
 }
 
-// RomanArabic merepresentasikan tujuh simbol roman beserta
+// RomanArabic berisi tujuh simbol roman beserta
 // nilai arabicnya.
 var RomanArabic = map[byte]int{
 	'I': 1,
